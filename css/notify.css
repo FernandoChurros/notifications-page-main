@@ -1,0 +1,30 @@
+.notify {
+	padding: 2rem 1rem;
+}
+
+.notify__header {
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__title {
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+.title__span {
+	padding: .1rem .5rem;
+	background-color: var(--blue);
+	border-radius: 8px;
+	color: var(--white);
+}
+
+.header__btn {
+	cursor: pointer;
+	border: 0;
+	background-color: transparent;
+	color: var(--dark-grayish-blue);
+	font-size: 1rem;
+}
