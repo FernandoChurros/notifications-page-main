@@ -13,32 +13,97 @@
 </head>
 <body>
 
-  Notifications 3
+<main class="notify">
+	<header class="notify__header">
+		<h2 class="header__title">Notifications <span class="title__span">3</span></h2>
 
-  Mark all as read
+		<button class="header__btn" type="button">Mark all as read</button>
+	</header>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+	<section class="wrapper__notify_users">
+		<div class="notify__user">
+			<img class="user__img" src="./assets/images/avatar-mark-webber.webp" alt="Icone do usuário.">
 
-  Angela Gray followed you
-  5m ago
+			<div>
+				<p class="user__notify"><a class="user__name" href="#">Mark Webber</a> reacted to your recent post <a class="user__conquist" href="#">My first tournament today!</a> <span class="icon__notify"></span></p>
+				<span class="user__time">1m ago</span>
+			</div>
+		</div>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+		<div class="notify__user">
+			<img class="user__img" src="./assets/images/avatar-angela-gray.webp" alt="Icone do usuário.">
 
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+			<div>
+				<p class="user__notify"><a class="user__name" href="#">Angela Gray</a> followed you <span class="icon__notify"></span></p>
+				<span class="user__time">5m ago</span>
+			</div>
+		</div>
 
-  Kimberly Smith commented on your picture
-  1 week ago
+		<div class="notify__user">
+			<img class="user__img" src="./assets/images/avatar-jacob-thompson.webp" alt="Icone do usuário.">
 
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
+			<div>
+				<p class="user__notify"><a class="user__name" href="#">Jacob Thompson</a> has joined your group <a class="user__group" href="#">Chess Club</a><span class="icon__notify"></span></p>
+				<span class="user__time">1 day ago</span>
+			</div>
+		</div>
 
-  Anna Kim left the group Chess Club
-  2 weeks ago
+		<div class="notify__user view">
+			<img class="user__img" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Icone do usuário.">
+
+			<div>
+				<p class="user__notify"><a class="user__name" href="#">Rizky Hasanuddin</a> sent you a private message<span class=""></span></p>
+				<span class="user__time">5 days ago</span>
+
+				<a href="#">
+					<span class="user__msg">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="notify__user view">
+			<img class="user__img" src="./assets/images/avatar-jacob-thompson.webp" alt="Icone do usuário.">
+
+			<div class="container__container_img">
+				<div class="container__img">
+					<p class="user__notify">
+						<a class="user__name" href="#">Kimberly Smith</a> commented on your picture<span class=""></span>
+					</p>
+
+					<a href="#">
+						<img class="user__notify_img" src="./assets/images/image-chess.webp" alt="Notify image.">
+					</a>
+				</div>
+				<span class="user__time">1 week ago</span>
+			</div>
+		</div>
+
+		<div class="notify__user view">
+			<img class="user__img" src="./assets/images/avatar-nathan-peterson.webp" alt="Icone do usuário.">
+
+			<div>
+				<p class="user__notify">
+					<a class="user__name" href="#">Nathan Peterson</a> reacted to your recent post <a class="user__conquist" href="#">5 end-game strategies to increase your win rate</a> <span class=""></span>
+				</p>
+				<span class="user__time">2 weeks ago</span>
+			</div>
+		</div>
+
+		<div class="notify__user view">
+			<img class="user__img" src="./assets/images/avatar-anna-kim.webp" alt="Icone do usuário.">
+
+			<div>
+				<p class="user__notify"><a class="user__name" href="#">Anna Kim</a> left the group <a class="user__group" href="#">Chess Club</a><span class=""></span></p>
+				<span class="user__time">2 weeks ago</span>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--
+
+    Chess Club
+   -->
   
 <!--   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
